@@ -15,10 +15,15 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #ED474A;
 }
 a:hover {
-  color: #606060;
+  color: #A71113;
+}
+
+.link-menu {
+  text-decoration: none;
+  color: #999;
 }
 
 /* Section Styles */
@@ -184,7 +189,14 @@ a.social:hover {
       justify-content: space-around;
       margin: 0 auto;
   }
-
+  .flex_2 {
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: flex; 
+    max-width: 1200px;
+    -ms-flex-pack: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
   header {
     min-height: 470px;
   }
